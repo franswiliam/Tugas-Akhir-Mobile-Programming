@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/berjaya"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pahlawan.biographypahlawanindonesia.CutnyakActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="200dp"
+                android:layout_height="58dp"
+                android:text="Cut Nyak Dhien"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.03"
+                android:src="@drawable/cutnyakdhien" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cut Nyak Dhien (ejaan lama: Tjoet Nja&apos; Dhien, Lampadang, Kerajaan Aceh, 1848 – Sumedang, Jawa Barat, 6 November 1908; dimakamkan di Gunung Puyuh, Sumedang) adalah seorang Pahlawan Nasional Indonesia dari Aceh yang berjuang melawan Belanda pada masa Perang Aceh. Setelah wilayah VI Mukim diserang, ia mengungsi, sementara suaminya Ibrahim Lamnga bertempur melawan Belanda. Ibrahim Lamnga tewas di Gle Tarum pada tanggal 29 Juni 1878 yang menyebabkan Cut Nyak Dhien sangat marah dan bersumpah hendak menghancurkan Belanda.
+
+Teuku Umar, salah satu tokoh yang melawan Belanda, melamar Cut Nyak Dhien. Pada awalnya Cut Nyak Dhien menolak, tetapi karena Teuku Umar memperbolehkannya ikut serta dalam medan perang, Cut Nyak Dhien setuju untuk menikah dengannya pada tahun 1880. Mereka dikaruniai anak yang diberi nama Cut Gambang.[1] Setelah pernikahannya dengan Teuku Umar, ia bersama Teuku Umar bertempur bersama melawan Belanda. Namun, Teuku Umar gugur saat menyerang Meulaboh pada tanggal 11 Februari 1899, sehingga ia berjuang sendirian di pedalaman Meulaboh bersama pasukan kecilnya. Cut Nyak Dien saat itu sudah tua dan memiliki penyakit encok dan rabun, sehingga satu pasukannya yang bernama Pang Laot melaporkan keberadaannya karena iba.[2][3] Ia akhirnya ditangkap dan dibawa ke Banda Aceh. Di sana ia dirawat dan penyakitnya mulai sembuh. Namun, keberadaannya menambah semangat perlawanan rakyat Aceh. Ia juga masih berhubungan dengan pejuang Aceh yang belum tertangkap. Akibatnya, Dhien dibuang ke Sumedang. Tjoet Nyak Dhien meninggal pada tanggal 6 November 1908 dan dimakamkan di Gunung Puyuh, Sumedang."
+                android:textColor="#EEEFFF" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Biography Pahlawan  Indonesia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cut">CutActivity</string>
+    <string name="title_activity_cutnyakdhien">Biography Pahlawan Indonesia</string>
+    <string name="title_activity_cutnyak">Biography Pahlawan Indonesia</string>
+    <string name="title_activity_sudirman">Biography Pahlawan Indonesia</string>
+    <string name="title_activity_tan_malaka">Biography Pahlawan Indonesia</string>
+    <string name="title_activity_antasari">Biography Pahlawan Indonesia</string>
+    <string name="title_activity_hamengkubuwono">Biography Pahlawan Indonesia</string>
+    <string name="title_activity_pakubowono">Biography Pahlawan Indonesia</string>
+    <string name="title_activity_myamin">Biography Pahlawan Indonesia</string>
+    <string name="title_activity_sisingamangaraja">Biography Pahlawan Indonesia</string>
+    <string name="title_activity_oerip">Biography Pahlawan Indonesia</string>
+    <string name="title_activity_albertus">Biography Pahlawan Indonesia</string>
+    <string name="title_activity_blankctivity">Biography Pahlawan Indonesia</string>
+
+</resources>

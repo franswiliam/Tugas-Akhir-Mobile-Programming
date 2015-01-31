@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/berjaya"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pahlawan.biographypahlawanindonesia.PakubowonoActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PakubowonoX"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pakubuwonox" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sayiddin Malikul Kusno naik tahta sebagai Pakubuwana X pada tanggal 30 Maret 1893 menggantikan ayahnya yang meninggal dua minggu sebelumnya. Pakubuwana X menikah dengan GKR. Hemas (putri Sultan Hamengkubuwana VII) dan dikaruniai seorang putri yang bernama GKR. Pembayun.
+
+Masa pemerintahannya ditandai dengan kemegahan tradisi dan suasana politik kerajaan yang stabil. Pada masa pemerintahannya yang cukup panjang, Kasunanan Surakarta mengalami transisi, dari kerajaan tradisional menuju era modern, sejalan dengan perubahan politik di Hindia-Belanda.
+
+Dalam bidang sosial-ekonomi, Pakubuwana X memberikan kredit untuk pembangunan rumah bagi warga kurang mampu. Di bidang pendidikan, ia mendirikan sekolah Pamardi Putri dan Kasatriyan untuk kepentingan kerabat keraton. Infrastruktur moderen kota Surakarta banyak dibangun pada masa pemerintahannya, seperti bangunan Pasar Gede Harjonagoro, Stasiun Solo Jebres, Stasiun Solo-Kota (Sangkrah), Stadion Sriwedari, Kebun Binatang Jurug, jembatan Jurug yang melintasi Bengawan Solo di timur kota, Taman Balekambang, gapura-gapura di batas Kota Surakarta, rumah pemotongan hewan ternak di Jagalan, rumah singgah bagi tunawisma, dan rumah perabuan (pembakaran jenazah) bagi warga Tionghoa.
+
+Pada tanggal 21 Januari 1932, Pakubuwana X mendapatkan bintang kehormatan Sri Maharaja dari Ratu Wilhelmina dari Belanda berupa Grutkreissi Ordhe Nederlanse Leyo dengan sebutan raja dalam Bahasa Belanda, Zijne Vorstelijke Hoogheid.
+
+Meskipun berada dalam tekanan politik pemerintah kolonial Hindia Belanda, Pakubuwana X memberikan kebebasan berorganisasi dan penerbitan media massa. Ia mendukung pendirian organisasi Sarekat Dagang Islam, salah satu organisasi pergerakan nasional pertama di Indonesia. Kongres Bahasa Indonesia I di Surakarta (1938) diadakan pada masa pemerintahannya."
+                android:textColor="#EEEFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

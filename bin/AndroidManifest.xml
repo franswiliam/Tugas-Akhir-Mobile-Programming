@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pahlawan.biographypahlawanindonesia"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CutActivity"
+            android:label="@string/title_activity_cut" >
+        </activity>
+        <activity
+            android:name=".CutnyakdhienActivity"
+            android:label="@string/title_activity_cutnyakdhien" >
+        </activity>
+        <activity
+            android:name=".CutnyakActivity"
+            android:label="@string/title_activity_cutnyak" >
+        </activity>
+        <activity
+            android:name=".SudirmanActivity"
+            android:label="@string/title_activity_sudirman" >
+        </activity>
+        <activity
+            android:name=".TanMalakaActivity"
+            android:label="@string/title_activity_tan_malaka" >
+        </activity>
+        <activity
+            android:name=".AntasariActivity"
+            android:label="@string/title_activity_antasari" >
+        </activity>
+        <activity
+            android:name=".HamengkubuwonoActivity"
+            android:label="@string/title_activity_hamengkubuwono" >
+        </activity>
+        <activity
+            android:name=".PakubowonoActivity"
+            android:label="@string/title_activity_pakubowono" >
+        </activity>
+        <activity
+            android:name=".MyaminActivity"
+            android:label="@string/title_activity_myamin" >
+        </activity>
+        <activity
+            android:name=".SisingamangarajaActivity"
+            android:label="@string/title_activity_sisingamangaraja" >
+        </activity>
+        <activity
+            android:name=".OeripActivity"
+            android:label="@string/title_activity_oerip" >
+        </activity>
+        <activity
+            android:name=".AlbertusActivity"
+            android:label="@string/title_activity_albertus" >
+        </activity>
+        <activity
+            android:name=".Blankctivity"
+            android:label="@string/title_activity_blankctivity" >
+        </activity>
+    </application>
+
+</manifest>

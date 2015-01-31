@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/berjaya"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pahlawan.biographypahlawanindonesia.AntasariActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pangeran Antasari"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pangeranantasari" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pangeran Antasari (lahir di Kayu Tangi, Kesultanan Banjar, 1797[1][2]atau 1809[3][4][5][6] – meninggal di Bayan Begok, Hindia-Belanda, 11 Oktober 1862 pada umur 53 tahun) adalah seorang Pahlawan Nasional Indonesia.
+
+Ia adalah Sultan Banjar.[7] Pada 14 Maret 1862, beliau dinobatkan sebagai pimpinan pemerintahan tertinggi di Kesultanan Banjar (Sultan Banjar) dengan menyandang gelar Panembahan Amiruddin Khalifatul Mukminin dihadapan para kepala suku Dayak dan adipati (gubernur) penguasa wilayah Dusun Atas, Kapuas dan Kahayan yaitu Tumenggung Surapati/Tumenggung Yang Pati Jaya Raja.[8]"
+                android:textColor="#EEEFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

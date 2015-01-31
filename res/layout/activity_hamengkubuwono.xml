@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/berjaya"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pahlawan.biographypahlawanindonesia.HamengkubuwonoActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HamengkubowonoIX"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hamengkubuwonoix" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hamengkubuwana IX dinobatkan sebagai Sultan Yogyakarta pada tanggal 18 Maret 1940 dengan gelar Sampeyan Dalem Ingkang Sinuhun Kanjeng Sultan Hamengkubuwana Senapati-ing-Ngalaga Abdurrahman Sayidin Panatagama Khalifatullah ingkang Jumeneng Kaping Sanga. Ia merupakan sultan yang menentang penjajahan Belanda dan mendorong kemerdekaan Indonesia. Selain itu, dia juga mendorong agar pemerintah RI memberi status khusus bagi Yogyakarta dengan predikat Istimewa, Sebelum dinobatkan, Sultan yang berusia 28 tahun bernegosiasi secara alot selama 4 bulan dengan diplomat senior Belanda Dr. Lucien Adam mengenai otonomi Yogyakarta. Di masa Jepang, Sultan melarang pengiriman romusha dengan mengadakan proyek lokal saluran irigasi Selokan Mataram. Sultan bersama Paku Alam IX adalah penguasa lokal pertama yang menggabungkan diri ke Republik Indonesia. Sultan pulalah yang mengundang Presiden untuk memimpin dari Yogyakarta setelah Jakarta dikuasai Belanda dalam Agresi Militer Belanda I."
+                android:textColor="#EEEFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
